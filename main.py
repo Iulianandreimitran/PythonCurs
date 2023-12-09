@@ -17,6 +17,14 @@ print("Numere cu indici pari:", my_sliced_list)
 my_sliced_list = my_list[::2]
 print("Numere cu indici impari:", my_sliced_list)
 
+
 # Afișarea elementelor multipli ai lui 3
-multiplii_ai_lui_3 = [i for i in my_list if i % 3 == 0]
-print("Elemente multipli ai lui 3:", multiplii_ai_lui_3)
+print("Elemente multipli ai lui 3:")
+nr = []
+for numar in my_list:
+    if numar % 3 == 0:
+        nr.append(numar)
+
+for element in nr:
+    print(element)
+

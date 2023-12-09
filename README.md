@@ -1,1 +1,0 @@
-In ultimul commit am adaugat comentarii in cod.
